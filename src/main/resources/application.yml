@@ -1,5 +1,5 @@
 spring:
   security:
     user:
-      name: {user_name}
-      password: {password}
+      name: ${user_name}
+      password: ${password}
